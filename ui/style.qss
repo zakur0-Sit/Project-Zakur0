@@ -1,0 +1,98 @@
+/* ====== GENERAL STYLES ====== */
+QWidget
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+QPushButton
+{
+    background-color: #4A5561;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+QPushButton:hover
+{
+
+}
+
+/* ====== WINDOW ====== */
+QMainWindow {
+/*    background-color: #576470;*/
+/*    background-image: url(../resources/images/background.jpg);*/
+}
+
+/* ====== MENU BAR ====== */
+QMenuBar
+{
+    background-color: #3E4750;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+QMenuBar::item
+{
+    background-color: transparent;
+    padding: 6px 12px;
+}
+
+QMenuBar::item:selected
+{
+    background-color: #4A5561;
+    border-radius: 4px;
+}
+
+/* ====== MENUS ====== */
+QMenu
+{
+    background-color: #3E4750;
+    border: 1px solid #2E343A;
+}
+
+QMenu::item
+{
+    padding: 6px 20px;
+    color: #ffffff;
+}
+
+QMenu::item:selected
+{
+    background-color: #5A6570;
+}
+
+/* ====== TOOLBAR ====== */
+QToolBar
+{
+    background-color: #2D363E;
+    spacing: 6px;
+    border: none;
+}
+
+QToolButton
+{
+    background-color: #2D363E;
+    margin-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    width: 100px;
+    height: 40px;
+}
+
+QToolBar#main_toolbar QToolButton
+{
+    width: 60px;
+    height: 40px;
+}
+
+QToolButton:hover
+{
+    background-color: #2C353D;
+}
+
+/*QToolButton:pressed {*/
+/*    background-color: #2E343A;*/
+/*}*/
